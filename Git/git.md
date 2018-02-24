@@ -39,7 +39,7 @@ Create a repository on Github
 * git remote add <remote_name> <github_repository_address>
 
 ## Push change to branch (or github)
-* git push <remote_name> <banch>
+* git push <remote_name> <branch_name>
 
 ## Pull from branch (or github)
 * git pull
