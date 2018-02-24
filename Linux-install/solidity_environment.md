@@ -20,7 +20,7 @@
 * Go to folder to extract
 * tar -zxvf ~/Downloads/geth-linux-amd64-<version>.tar.gz
 * Create genesis.json file
-```
+```json
 {
   "difficulty" : "0x20000",
   "extraData"  : "",
