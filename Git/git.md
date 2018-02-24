@@ -13,15 +13,15 @@ Create a repository on Github
 * mkdir <project_name>
 * cd <project_name>
 * git init
-* create <file or folder>
+* create <file_or_folder>
 
 ## Commit a file or folder
 * git add <file_or_folder>
-* git commit -m "<comment>"
+* git commit -m "<commit_info>"
 
 ## Delete a file or folder
 * git rm <file_or_folder>
-* git commit -m "<comment>"
+* git commit -m "<commit_info>"
 
 ## Create a new branch
 * git checkout -b <branch_name>
@@ -39,7 +39,7 @@ Create a repository on Github
 * git remote add <remote_name> <github_repository_address>
 
 ## Push change to branch (or github)
-* git push origin <banch>
+* git push <remote_name> <banch>
 
 ## Pull from branch (or github)
 * git pull
