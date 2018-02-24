@@ -20,6 +20,7 @@
 * download Geth install from https://ethereum.github.io/go-ethereum/downloads/
 * Go to folder to extract
 * tar -zxvf ~/Downloads/geth-linux-amd64-<version>.tar.gz
+* copy all inside /geth-linux-amd64-<version> to /Geth
 * Create genesis.json file
 ```json
 {
@@ -35,18 +36,29 @@
     }
 }
 ```
-* PATH=~/Development/geth-linux-amd64-1.8.1-1e67410e/:$PATH
+* PATH=~/Development//Geth/:$PATH
+
+
+## Start genesis file
 * geth --datadir=./chaindata/ init ./genesis.json
+
+
+## Start Geth
+* geth --datadir=./chaindata/ --rpc
 
 
 ## Install Mist
 * download Mist from https://github.com/ethereum/mist/releases
+* Install Mist
 
 
-* ./geth --datadir=./chaindata/ --rpc
-* mist --node-datadir="~/Development/geth-linux-<version>/chaindata/" --rpc ~/Development/geth-linux-<version>/chaindata/geth.ipc
-* geth attach ~/Development/geth-linux-amd64-1.8.1-1e67410e/chaindata/geth.ipc 
+## Start Mist Wallet
+* mist --node-datadir="~/Development/Geth/chaindata/" --rpc ~/Development/Geth/chaindata/geth.ipc
+* Start wallet
+* Create the ETHERBASE ACCOUNT
 
 
+## Attach Geth Console to Geth Server
+* geth attach ipc:/home/marcio1973/Development/Geth/chaindata/geth.ipc 
 
-./geth attach ipc:/home/marcio1973/Development/geth-linux-amd64-1.8.1-1e67410e/chaindata/geth.ipc 
+
