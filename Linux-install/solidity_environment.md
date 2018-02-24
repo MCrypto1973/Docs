@@ -15,3 +15,22 @@
 ## Install Ganache
 * sudo npm install -g ganache-cli
 
+## Install Geth
+* download Geth install from https://ethereum.github.io/go-ethereum/downloads/
+* Go to folder to extract
+* tar -zxvf ~/Downloads/geth-linux-amd64-<version>.tar.gz
+* Create genesis.json file
+```
+{
+  "difficulty" : "0x20000",
+  "extraData"  : "",
+  "gasLimit"   : "0x8000000",
+  "alloc": {},
+  "config": {
+        "chainId": 15,
+        "homesteadBlock": 0,
+        "eip155Block": 0,
+        "eip158Block": 0
+    }
+}
+```
