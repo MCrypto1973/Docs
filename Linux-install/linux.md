@@ -16,13 +16,13 @@ Creating a Linux Development Environment
 ## Update and Upgrade Packages
 
 * sudo apt-get update (Updates the package lists for upgrades)
-* sudo apt-get dist-upgrade (Upgrade the obsolete packages and dependencies)
+* sudo apt-get -y dist-upgrade (Upgrade the obsolete packages and dependencies)
 
 
 ## Install Git
 
-* sudo apt-get install git 
+* sudo apt-get install -y git 
 
 
 ## Install GEdit
-* sudo apt-get install gedit
+* sudo apt-get install -y gedit
