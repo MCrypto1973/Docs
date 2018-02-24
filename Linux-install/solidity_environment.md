@@ -86,3 +86,5 @@ module.exports = {
 };
 ```
 
+# Unlock Account
+personal.unlockAccount('<address>','<address_password>')
