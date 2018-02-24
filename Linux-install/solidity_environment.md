@@ -15,6 +15,7 @@
 ## Install Ganache
 * sudo npm install -g ganache-cli
 
+
 ## Install Geth
 * download Geth install from https://ethereum.github.io/go-ethereum/downloads/
 * Go to folder to extract
@@ -34,3 +35,18 @@
     }
 }
 ```
+* PATH=~/Development/geth-linux-amd64-1.8.1-1e67410e/:$PATH
+* geth --datadir=./chaindata/ init ./genesis.json
+
+
+## Install Mist
+* download Mist from https://github.com/ethereum/mist/releases
+
+
+* ./geth --datadir=./chaindata/ --rpc
+* mist --node-datadir="~/Development/geth-linux-<version>/chaindata/" --rpc ~/Development/geth-linux-<version>/chaindata/geth.ipc
+* geth attach ~/Development/geth-linux-amd64-1.8.1-1e67410e/chaindata/geth.ipc 
+
+
+
+./geth attach ipc:/home/marcio1973/Development/geth-linux-amd64-1.8.1-1e67410e/chaindata/geth.ipc 
