@@ -37,7 +37,7 @@
     }
 }
 ```
-* PATH=~/Development/Geth-1.7.3/:$PATH
+* export PATH=~/Development/Geth-1.7.3/:$PATH
 
 
 ## Start genesis file
