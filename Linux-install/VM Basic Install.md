@@ -12,14 +12,15 @@ Creating a Linux Development Environment
 * tar -zxvf VMWareTools-<version>-tar.gz
 * cd vmware-tools-distrib/
 * sudo ./vmware-install.pl
-  * rm -rf vmware-tootls-distrib/
-  * rm -rf VMwareTools-<version>-tar-gz
+* rm -rf vmware-tootls-distrib/
+* rm -rf VMwareTools-<version>-tar-gz
 * Reboot virtual machine
 
-## Update and Upgrade Packages
-* sudo apt-get update (Updates the package lists for upgrades)
-* sudo apt-get -y dist-upgrade (Upgrade the obsolete packages and dependencies)
+## Update the package list
+* sudo apt-get update 
 
+## Upgrade obsolete packages and dependencies
+* sudo apt-get -y dist-upgrade 
 
 ## Install Git
 * sudo apt-get install -y git 
