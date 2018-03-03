@@ -17,12 +17,12 @@ Creating a Linux Development Environment
 * Reboot virtual machine
 ### Update the package list
 * sudo apt-get update 
-### Download and install Chrome
-* Doandload and install from https://www.google.com/chrome/
-### Install Git
-* sudo apt-get install -y git 
 ### Upgrade obsolete packages and dependencies
 * sudo apt-get -y dist-upgrade 
+### Download and install Chrome
+* Download and install from https://www.google.com/chrome/
+### Install Git
+* sudo apt-get install -y git 
 
 *** 
 
