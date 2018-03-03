@@ -44,7 +44,7 @@ Creating a Linux Development Environment
 
 ## Angular Environment
 # Install Visual Studio Code
-* Download and install from https://code.visualstudio.com/download
+* Download debian x64 version and install from https://code.visualstudio.com/download
 ## Install NodeJS
 * curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
 * sudo apt-get install -y nodejs
@@ -83,5 +83,5 @@ Creating a Linux Development Environment
 }
 ```
 ## Install Mist
-* download Mist from https://github.com/ethereum/mist/releases
+* download debian x64 version of Mist from https://github.com/ethereum/mist/releases
 * Install Mist
