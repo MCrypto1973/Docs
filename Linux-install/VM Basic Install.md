@@ -33,3 +33,11 @@ Creating a Linux Development Environment
 
 ## Install Git
 * sudo apt-get install -y git 
+
+## Install Spring Tool Suite
+* Download and install from https://spring.io/tools
+* mkdir Development
+* cd Development
+* mv ~/Download/* ./
+* tar -zxvf spring-tool-suite-<version>-linux-gtk-x86_64.tar.gz
+* rm -rf spring-tool-suite-<version>-linux-gtk-x86_64.tar.gz
