@@ -1,11 +1,11 @@
 # Basic installation of Linux Mint
-
-
-# Linux-Install
 Creating a Linux Development Environment
 
+## Download and install Linux Mint
+* Download linux from https://linuxmint.com
+* Create a new VMWare with Linux Mint
 
-## Install VMWare Tools
+### Install VMWare Tools
   
 * Download VMWare-Tools
 * cd /media/marcio1973/VMWare Tools
