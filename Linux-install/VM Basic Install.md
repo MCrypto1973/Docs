@@ -7,13 +7,13 @@ Creating a Linux Development Environment
 * Create a new VMWare with Linux Mint
 ### Install VMWare Tools
 * Download VMWare-Tools
-* cd /media/<user>/VMWare Tools
-* cp *.tar.gz ~/Downloads/
-* tar -zxvf VMWareTools-<version>-tar.gz
-* cd vmware-tools-distrib/
-* sudo ./vmware-install.pl
-* rm -rf vmware-tootls-distrib/
-* rm -rf VMwareTools-<version>-tar-gz
+  * cd /media/<user>/VMWare Tools
+  * cp *.tar.gz ~/Downloads/
+  * tar -zxvf VMWareTools-<version>-tar.gz
+  * cd vmware-tools-distrib/
+  * sudo ./vmware-install.pl
+  * rm -rf vmware-tootls-distrib/
+  * rm -rf VMwareTools-<version>-tar-gz
 * Reboot virtual machine
 ### Update the package list
 * sudo apt-get update 
@@ -34,11 +34,11 @@ Creating a Linux Development Environment
 * sudo apt-get install oracle-java9-set-default
 ## Install Spring Tool Suite
 * Download and install from https://spring.io/tools
-* mkdir Development
-* cd Development
-* mv ~/Download/* ./
-* tar -zxvf spring-tool-suite-<version>-linux-gtk-x86_64.tar.gz
-* rm -rf spring-tool-suite-<version>-linux-gtk-x86_64.tar.gz
+  * cd ~/Download
+  * tar -zxvf spring-tool-suite-<version>-linux-gtk-x86_64.tar.gz
+  * rm -rf spring-tool-suite-<version>-linux-gtk-x86_64.tar.gz
+  * mkdir ~/Development
+  * mv ./* ~/Development
 
 ***
 
@@ -62,10 +62,12 @@ Creating a Linux Development Environment
 ## Install Geth
 * download Geth install from https://ethereum.github.io/go-ethereum/downloads/ (Download vesion 1.7.3, version 1.
 8.x can't connect with Mist)
-* Go to folder to extract
-* tar -zxvf ~/Downloads/geth-linux-amd64-<version>.tar.gz
-* copy all inside /geth-linux-amd64-<version> to /Geth-1.7.3
-* Create genesis.json file
+* Go to download folder to extract
+  * mkdir ~/Development/geth-1.7.3
+  * tar -zxvf ~/Downloads/geth-linux-amd64-<version>.tar.gz  
+  * cp ./geth-linux-amd64-<version>/* ~/Development/geth-1.7.3
+  * rm -rf geth*
+* Create genesis.json file on ~/Development/geth-1.7.3
 ```json
 {
   "difficulty" : "0x20000",
