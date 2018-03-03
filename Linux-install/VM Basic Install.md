@@ -28,5 +28,8 @@ Creating a Linux Development Environment
 * sudo apt-get install oracle-java9-installer
 * sudo apt-get install oracle-java9-set-default
 
+## Download and install Chrome
+* Doandload and install from https://www.google.com/chrome/
+
 ## Install Git
 * sudo apt-get install -y git 
