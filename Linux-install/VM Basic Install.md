@@ -23,7 +23,7 @@ Creating a Linux Development Environment
 * sudo apt-get install -y git 
 ### Upgrade obsolete packages and dependencies
 * sudo apt-get -y dist-upgrade 
-
+<hr>
 ## Java Environment
 ### Install Java from Oracle
 * sudo add-apt-repository ppa:webupd8team/java
@@ -37,7 +37,7 @@ Creating a Linux Development Environment
 * mv ~/Download/* ./
 * tar -zxvf spring-tool-suite-<version>-linux-gtk-x86_64.tar.gz
 * rm -rf spring-tool-suite-<version>-linux-gtk-x86_64.tar.gz
-
+<hr>
 ## Angular Environment
 # Install Visual Studio Code
 * Download and install from https://code.visualstudio.com/download
@@ -47,7 +47,7 @@ Creating a Linux Development Environment
 * sudo apt-get install -y build-essential
 ## Upgrade NPM
 * sudo npm install npm@latest -g
-
+<hr>
 ## Solidity Environment
 ## Install Truffle
 * sudo npm install -g truffle 
