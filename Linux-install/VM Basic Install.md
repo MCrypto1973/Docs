@@ -59,3 +59,27 @@ Creating a Linux Development Environment
 * sudo npm install -g truffle 
 ## Install Ganache
 * sudo npm install -g ganache-cli
+## Install Geth
+* download Geth install from https://ethereum.github.io/go-ethereum/downloads/ (Download vesion 1.7.3, version 1.
+8.x can't connect with Mist)
+* Go to folder to extract
+* tar -zxvf ~/Downloads/geth-linux-amd64-<version>.tar.gz
+* copy all inside /geth-linux-amd64-<version> to /Geth-1.7.3
+* Create genesis.json file
+```json
+{
+  "difficulty" : "0x20000",
+  "extraData"  : "",
+  "gasLimit"   : "0x8000000",
+  "alloc": {},
+  "config": {
+        "chainId": 15,
+        "homesteadBlock": 0,
+        "eip155Block": 0,
+        "eip158Block": 0
+    }
+}
+```
+## Install Mist
+* download Mist from https://github.com/ethereum/mist/releases
+* Install Mist
