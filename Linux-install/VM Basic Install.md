@@ -35,8 +35,8 @@ Creating a Linux Development Environment
 ## Install Spring Tool Suite
 * Download and install from https://spring.io/tools
   * cd ~/Download
-  * tar -zxvf spring-tool-suite-<version>-linux-gtk-x86_64.tar.gz
-  * rm -rf spring-tool-suite-<version>-linux-gtk-x86_64.tar.gz
+  * tar -zxvf spring-tool-suite-<spring_version>-linux-gtk-x86_64.tar.gz
+  * rm -rf spring-tool-suite-<spring_version>-linux-gtk-x86_64.tar.gz
   * mkdir ~/Development
   * mv ./* ~/Development
 
@@ -64,8 +64,8 @@ Creating a Linux Development Environment
 8.x can't connect with Mist)
 * Go to download folder to extract
   * mkdir ~/Development/geth-1.7.3
-  * tar -zxvf ~/Downloads/geth-linux-amd64-<version>.tar.gz  
-  * cp ./geth-linux-amd64-<version>/* ~/Development/geth-1.7.3
+  * tar -zxvf ~/Downloads/geth-linux-amd64-<geth_version>.tar.gz  
+  * cp ./geth-linux-amd64-<geth_version>/* ~/Development/geth-1.7.3
   * rm -rf geth*
 * Create genesis.json file on ~/Development/geth-1.7.3
 ```json
@@ -85,3 +85,10 @@ Creating a Linux Development Environment
 ## Install Mist
 * download debian x64 version of Mist from https://github.com/ethereum/mist/releases
 * Install Mist
+ 
+***
+
+# Python Environment
+* Download x64 verions of Anaconda https://www.anaconda.com/download/#linux
+* chmod +x Anaconda3-<version_dist>-Linux-x86_64.sh
+* sudo ./Anaconda3-<anaconda_version>-Linux-x86_64.sh
