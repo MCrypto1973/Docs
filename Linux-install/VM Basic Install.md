@@ -91,4 +91,4 @@ Creating a Linux Development Environment
 # Python Environment
 * Download x64 verions of Anaconda https://www.anaconda.com/download/#linux
 * chmod +x Anaconda3-<version_dist>-Linux-x86_64.sh
-* sudo ./Anaconda3-<anaconda_version>-Linux-x86_64.sh
+* ./Anaconda3-<anaconda_version>-Linux-x86_64.sh
