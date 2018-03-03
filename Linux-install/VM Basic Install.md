@@ -22,5 +22,11 @@ Creating a Linux Development Environment
 ## Upgrade obsolete packages and dependencies
 * sudo apt-get -y dist-upgrade 
 
+## Install Java from Oracle
+* sudo add-apt-repository ppa:webupd8team/java
+* sudo apt-get update
+* sudo apt-get install oracle-java9-installer
+* sudo apt-get install oracle-java9-set-default
+
 ## Install Git
 * sudo apt-get install -y git 
