@@ -56,18 +56,18 @@ Creating a Linux Development Environment
 
 ## Solidity Environment
 * ## Install Truffle
-* sudo npm install -g truffle 
-## Install Ganache
-* sudo npm install -g ganache-cli
-## Install Geth
-* download Geth install from https://ethereum.github.io/go-ethereum/downloads/ (Download vesion 1.7.3, version 1.
+  * sudo npm install -g truffle 
+* ## Install Ganache
+  * sudo npm install -g ganache-cli
+* ## Install Geth
+  * download Geth install from https://ethereum.github.io/go-ethereum/downloads/ (Download vesion 1.7.3, version 1.
 8.x can't connect with Mist)
-* Go to download folder to extract
-  * mkdir ~/Development/geth-1.7.3
-  * tar -zxvf ~/Downloads/geth-linux-amd64-<geth_version>.tar.gz  
-  * cp ./geth-linux-amd64-<geth_version>/* ~/Development/geth-1.7.3
-  * rm -rf geth*
-* Create genesis.json file on ~/Development/geth-1.7.3
+  * Go to download folder to extract
+    * mkdir ~/Development/geth-1.7.3
+    * tar -zxvf ~/Downloads/geth-linux-amd64-<geth_version>.tar.gz  
+    * cp ./geth-linux-amd64-<geth_version>/* ~/Development/geth-1.7.3
+    * rm -rf geth*
+  * Create genesis.json file on ~/Development/geth-1.7.3
 ```json
 {
   "difficulty" : "0x20000",
@@ -82,10 +82,10 @@ Creating a Linux Development Environment
     }
 }
 ```
-## Install Mist
-* download debian x64 version of Mist from https://github.com/ethereum/mist/releases
-* Install Mist
- 
+* ## Install Mist
+  * download debian x64 version of Mist from https://github.com/ethereum/mist/releases
+  * Install Mist
+
 ***
 
 # Python Environment
