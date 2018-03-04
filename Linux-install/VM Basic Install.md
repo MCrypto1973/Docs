@@ -74,6 +74,9 @@ Creating a Linux Development Environment
     * tar -zxvf ~/Downloads/geth-linux-amd64-<geth_version>.tar.gz  
     * cp ./geth-linux-amd64-<geth_version>/* ~/Development/geth-1.7.3
     * rm -rf geth*
+  * Put geth command on path environment
+    * xed ~/.bashrc
+    * add /home/<user_name>/Development/geth-1.7.3 on PATH
   * Create genesis.json file inside this folder => ~/Development/geth-1.7.3
     ```json
     {
