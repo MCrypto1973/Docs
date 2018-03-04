@@ -55,7 +55,7 @@ Creating a Linux Development Environment
 ***
 
 ## Solidity Environment
-## Install Truffle
+* ## Install Truffle
 * sudo npm install -g truffle 
 ## Install Ganache
 * sudo npm install -g ganache-cli
