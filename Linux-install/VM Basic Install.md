@@ -68,20 +68,20 @@ Creating a Linux Development Environment
     * cp ./geth-linux-amd64-<geth_version>/* ~/Development/geth-1.7.3
     * rm -rf geth*
   * Create genesis.json file on ~/Development/geth-1.7.3
-```json
-{
-  "difficulty" : "0x20000",
-  "extraData"  : "",
-  "gasLimit"   : "0x8000000",
-  "alloc": {},
-  "config": {
-        "chainId": 15,
-        "homesteadBlock": 0,
-        "eip155Block": 0,
-        "eip158Block": 0
+    ```json
+    {
+      "difficulty" : "0x20000",
+      "extraData"  : "",
+      "gasLimit"   : "0x8000000",
+      "alloc": {},
+      "config": {
+            "chainId": 15,
+            "homesteadBlock": 0,
+            "eip155Block": 0,
+            "eip158Block": 0
+        }
     }
-}
-```
+    ```
 * ## Install Mist
   * download debian x64 version of Mist from https://github.com/ethereum/mist/releases
   * Install Mist
