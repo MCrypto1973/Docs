@@ -12,6 +12,7 @@ Creating a Linux Development Environment
     * tar -zxvf VMWareTools-<version>-tar.gz
     * cd vmware-tools-distrib/
     * sudo ./vmware-install.pl
+    * cd..
     * rm -rf vmware-tootls-distrib/
     * rm -rf VMwareTools-<version>-tar-gz
   * Reboot virtual machine
