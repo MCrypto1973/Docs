@@ -50,7 +50,7 @@ Creating a Linux Development Environment
 
 ***
 
-# Angular Environment
+# Javascript Environment
 * ## Install Visual Studio Code
   * Download debian x64 version and install from https://code.visualstudio.com/download
 * ## Install NodeJS
@@ -59,6 +59,10 @@ Creating a Linux Development Environment
   * sudo apt-get install -y build-essential
 * ## Upgrade NPM
   * sudo npm install npm@latest -g
+* ## Typescript
+  * sudo npm install @angular/cli -g
+* ## Angular/CLI
+  * sudo npm install @angular/cli -g
 
 ***
 
