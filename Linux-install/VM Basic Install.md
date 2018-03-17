@@ -7,7 +7,7 @@ Creating a Linux Development Environment
   * Create a new VMWare with Linux Mint
 * ### Install VMWare Tools
   * Download VMWare-Tools
-    * cd /media/<user>/VMWare Tools
+    * cd /media/<user_login>/VMWare Tools
     * cp *.tar.gz ~/Downloads/
     * tar -zxvf VMWareTools-<version>-tar.gz
     * cd vmware-tools-distrib/
