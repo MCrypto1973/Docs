@@ -50,6 +50,20 @@ Creating a Linux Development Environment
 
 ***
 
+# Postgres Environment
+* ## Install Postgres and pgAdmin3
+  * sudo apt-get install postgresql-9.5 pgadmin3
+* ## Change admin password
+  * sudo -u postgres psql postgres
+  * \password postgres
+* Open pgAdmin3
+* Connect DB with pgAdmin
+  * Name: <choose_name>
+  * Host: localhost
+  * Password <admin_password>
+  
+***
+
 # Javascript Environment
 * ## Install Visual Studio Code
   * Download debian x64 version and install from https://code.visualstudio.com/download
