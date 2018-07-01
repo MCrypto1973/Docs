@@ -5,6 +5,13 @@ Creating a Linux Development Environment
 * ### Download and install Linux Mint
   * Download linux from https://linuxmint.com
   * Create a new VMWare with Linux Mint
+* ### Setting root password
+  * sudo passwd root
+  * enter sudo password
+  * enter root password
+* ### Testing root
+  * su
+  * enter root password
 * ### Install VMWare Tools
   * Download VMWare-Tools
     * cd /media/<user_login>/VMWare Tools
