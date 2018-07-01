@@ -16,3 +16,7 @@ Creating a Linux Development Environment
     * rm -rf vmware-tootls-distrib/
     * rm -rf VMwareTools-<version>-tar-gz
   * Reboot virtual machine
+* ### Update the package list
+  * sudo apt-get update 
+* ### Upgrade obsolete packages and dependencies
+  * sudo apt-get -y dist-upgrade
