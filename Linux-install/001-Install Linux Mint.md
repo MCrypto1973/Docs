@@ -13,12 +13,14 @@ Creating a Linux Development Environment
   * su
   * enter root password
 * ### Install VMWare Tools
+  * log with root
+    * su
   * Download VMWare-Tools
     * cd /media/<user_login>/VMWare Tools
     * cp *.tar.gz ~/Downloads/
     * tar -zxvf VMWareTools-<version>-tar.gz
     * cd vmware-tools-distrib/
-    * sudo ./vmware-install.pl
+    * ./vmware-install.pl
     * cd..
     * rm -rf vmware-tootls-distrib/
     * rm -rf VMwareTools-<version>-tar-gz
