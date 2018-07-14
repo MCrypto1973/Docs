@@ -36,10 +36,10 @@ Creating a Linux Development Environment
 
 # Java Environment
 * ## Install Java from Oracle
-  * sudo add-apt-repository ppa:webupd8team/java
+  * sudo add-apt-repository ppa:linuxuprising/java
   * sudo apt-get update
-  * sudo apt-get install oracle-java9-installer
-  * sudo apt-get install oracle-java9-set-default
+  * sudo apt-get install oracle-java10-installer
+  * sudo apt-get install oracle-java10-set-default
 * ## Install Spring Tool Suite
   * Download and install from https://spring.io/tools
     * cd ~/Download
