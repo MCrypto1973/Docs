@@ -5,13 +5,10 @@
 * ### Install VMWare Tools
 * Download VMWare-Tools
     * cd /media/<user_login>/VMWare Tools
-    * cp *.tar.gz ~/Downloads/
-    * tar -zxvf VMWareTools-<version>-tar.gz
-    * cd vmware-tools-distrib/
-    * ./vmware-install.pl
-    * cd..
+    * tar -zxvf VMWareTools-<version>-tar.gz -C ~/Downloads
+    * cd ~/Downloads
+    * sudo ./vmware-tools-distrib/vmware-install.pl
     * rm -rf vmware-tootls-distrib/
-    * rm -rf VMwareTools-<version>-tar-gz
   * Reboot virtual machine
 * ### Update the package list
   * sudo apt-get update 
