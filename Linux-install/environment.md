@@ -21,6 +21,11 @@
   * sudo apt-get update
   * sudo apt-get install oracle-java10-installer
   * sudo apt-get install oracle-java10-set-default
+  
+* ## Certification Problem
+  * Download Oracle Java JDK 10
+  * tar -zxvf jdk-<java_version>-linux-x64_bin.tar.gz
+  * sudo cp ~/Downloads/jdk-10.0.1/lib/security/cacerts /etc/ssl/certs/java
 
 * ## Install Spring Tool Suite
   * Download and install from https://spring.io/tools
