@@ -21,3 +21,11 @@
   * sudo apt-get update
   * sudo apt-get install oracle-java10-installer
   * sudo apt-get install oracle-java10-set-default
+
+* ## Install Spring Tool Suite
+  * Download and install from https://spring.io/tools
+    * cd ~/Download
+    * tar -zxvf spring-tool-suite-<spring_version>-linux-gtk-x86_64.tar.gz
+    * rm -rf spring-tool-suite-<spring_version>-linux-gtk-x86_64.tar.gz
+    * mkdir ~/Development
+    * mv ./* ~/Development
