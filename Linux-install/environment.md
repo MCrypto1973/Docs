@@ -14,3 +14,10 @@
   * sudo apt-get update 
 * ### Upgrade obsolete packages and dependencies
   * sudo apt-get -y dist-upgrade
+
+# Java Environment
+* ## Install Java from Oracle
+  * sudo add-apt-repository ppa:linuxuprising/java
+  * sudo apt-get update
+  * sudo apt-get install oracle-java10-installer
+  * sudo apt-get install oracle-java10-set-default
