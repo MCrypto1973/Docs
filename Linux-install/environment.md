@@ -25,6 +25,7 @@
 * ## Certification Problem
   * Download Oracle Java JDK 10
   * tar -zxvf jdk-<java_version>-linux-x64_bin.tar.gz
+  * Testar: /ysr/lib/jvm/java-10-oracle/lib/security/cacerts
   * sudo cp ~/Downloads/jdk-<java_version>/lib/security/cacerts /etc/ssl/certs/java
 
 * ## Install Spring Tool Suite
